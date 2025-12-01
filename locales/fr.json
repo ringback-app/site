@@ -1,0 +1,66 @@
+{
+    "meta": {
+        "title_home": "RingBack - Appels d'inconnus silencieux, en toute sécurité",
+        "title_tutorial": "Guide de configuration - RingBack"
+    },
+    "hero": {
+        "mac_badge": "Pour les utilisateurs macOS",
+        "title": "Ne laissez pas le spam vous distraire.",
+        "subtitle_start": "Bloquez les inconnus",
+        "subtitle_middle": " sur votre iPhone sans anxiété. RingBack vérifie les numéros instantanément et ",
+        "subtitle_highlight": "ne notifie votre Mac que si c'est sûr",
+        "subtitle_end": ", pour ne jamais manquer un appel important.",
+        "cta_download": "Télécharger",
+        "cta_how": "Comment ça marche",
+        "trusted": "Approuvé par les utilisateurs Mac"
+    },
+    "app": {
+        "tab_all": "Tous",
+        "tab_safe": "Sûr",
+        "tab_spam": "Spam",
+        "header_today": "Aujourd'hui",
+        "header_yesterday": "Hier",
+        "country_italy": "Italie",
+        "country_france": "France",
+        "badge_high_risk": "Haut Risque",
+        "badge_suspected": "Spam Suspecté"
+    },
+    "workflow": {
+        "section_title": "Le Flux Parfait",
+        "main_heading": "Activez \"Appels d'inconnus silencieux\".<br>Nous gérons le reste.",
+        "sub_heading": "Arrêtez les sonneries, gardez la connexion. RingBack agit comme votre gardien pour rester concentré.",
+        "step1_title": "Silence le Bruit",
+        "step1_desc": "Activez la fonction iOS. Votre téléphone reste silencieux ; vous restez concentré.",
+        "step1_link": "Voir le guide →",
+        "step2_title": "Alertes Vérifiées",
+        "step2_desc": "Si c'est sûr, RingBack envoie une notification à votre Mac. Si c'est du spam, silence radio.",
+        "step3_title": "Rappelez si Sûr",
+        "step3_desc": "Numéro sûr ? Cliquez pour rappeler. Spam ? Bloquez et ignorez pour toujours."
+    },
+    "features": {
+        "heading": "Ne manquez plus d'appels importants.",
+        "subheading": "Intégration parfaite entre vos appareils Apple.",
+        "f1_title": "Synchro iCloud",
+        "f1_desc": "Aucun câble requis. Si votre iPhone et votre Mac utilisent le même compte, vos appels manqués apparaissent instantanément.",
+        "f2_title": "Bouclier Anti-Spam",
+        "f2_desc": "Nous croisons les numéros avec des bases de données mondiales pour signaler les appels automatisés.",
+        "f3_title": "Cliquer pour Appeler",
+        "f3_desc": "Un appel manqué légitime ? Lancez un appel FaceTime Audio ou Cellulaire directement depuis votre Mac."
+    },
+    "tutorial": {
+        "title": "Comment activer \"Appels d'inconnus silencieux\"",
+        "subtitle": "Suivez ces 3 étapes simples sur votre iPhone pour stopper les appels indésirables.",
+        "pro_tip": "Astuce Pro : Introuvable ? Faites glisser vers le bas dans Réglages pour afficher la recherche et tapez \"Silence\".",
+        "back_home": "Retour à l'accueil",
+        "step1_title": "Ouvrez Réglages",
+        "step1_text": "Déverrouillez votre iPhone et ouvrez l'app <strong>Réglages</strong>. Faites défiler jusqu'à la liste des applications.",
+        "step2_title": "Sélectionnez Téléphone",
+        "step2_text": "Appuyez sur <strong>Téléphone</strong>. C'est ici que vous gérez le traitement des appels entrants.",
+        "step3_title": "Activez la Fonction",
+        "step3_text": "Faites défiler jusqu'à <strong>Appels d'inconnus silencieux</strong> et activez l'interrupteur (Vert).",
+        "completion_note": "C'est tout ! RingBack filtrera les appels silencieux et vous notifiera sur votre Mac s'ils sont sûrs."
+    },
+    "footer": {
+        "copyright": "© 2025 RingBack pour Mac. Tous droits réservés."
+    }
+}

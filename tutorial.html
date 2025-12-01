@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="meta.title_tutorial">Setup Guide - RingBack</title>
+    
+    <!-- External Dependencies -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Local Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fallback for users without JS to ensure content is visible -->
+    <noscript>
+        <style>body { opacity: 1 !important; pointer-events: auto !important; }</style>
+    </noscript>
+</head>
+<!-- Body starts hidden (is-loading) to prevent flash of untranslated content -->
+<body class="bg-white text-slate-900 overflow-x-hidden is-loading">
+
+    <!-- Language Switcher -->
+    <div class="absolute top-6 right-6 z-50">
+        <div class="relative">
+            <select id="language-selector" class="lang-select appearance-none bg-white/80 backdrop-blur border border-slate-200 text-slate-600 py-1.5 pl-3 pr-8 rounded-lg text-sm font-medium hover:border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500/20 cursor-pointer transition-all shadow-sm">
+                <option value="en">English</option>
+                <option value="it">Italiano</option>
+                <option value="fr">Français</option>
+                <option value="es">Español</option>
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-500">
+                <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="max-w-7xl mx-auto px-6 lg:px-8 pt-8">
+        <a href="index.html" class="inline-flex items-center text-sm font-semibold text-blue-600 hover:text-blue-800 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+            </svg>
+            <span data-i18n="tutorial.back_home">Back to Home</span>
+        </a>
+    </nav>
+
+    <!-- Content -->
+    <main class="max-w-4xl mx-auto px-6 lg:px-8 py-12">
+        <div class="text-center mb-16">
+            <h1 data-i18n="tutorial.title" class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+                How to Enable "Silence Unknown Callers"
+            </h1>
+            <p data-i18n="tutorial.subtitle" class="mt-4 text-lg text-slate-600">
+                Follow these 3 simple steps on your iPhone to stop spam calls from ringing.
+            </p>
+        </div>
+
+        <!-- Pro Tip Card -->
+        <div class="max-w-2xl mx-auto mb-20 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-100 rounded-2xl p-6 flex items-start shadow-sm">
+            <div class="shrink-0 mr-4">
+                <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </div>
+            <div>
+                <h3 class="font-bold text-blue-900">Pro Tip</h3>
+                <p data-i18n="tutorial.pro_tip" class="text-blue-800 text-sm mt-1 leading-relaxed">
+                    Can't find it? Swipe down in Settings to reveal the search bar and type "Silence".
+                </p>
+            </div>
+        </div>
+
+        <!-- Vertical Timeline Steps -->
+        <div class="space-y-20 relative">
+            
+            <!-- Step 1 -->
+            <div class="step-item grid md:grid-cols-2 gap-12 items-center relative">
+                <!-- Connector Line (Desktop & Mobile) -->
+                <div class="step-connector"></div>
+
+                <div class="relative z-10 pl-16 md:pl-20">
+                    <!-- Step Number Bubble -->
+                    <div class="absolute left-0 top-1 w-12 h-12 bg-white border-2 border-slate-900 rounded-full flex items-center justify-center text-lg font-bold text-slate-900 shadow-sm">
+                        1
+                    </div>
+                    <h2 data-i18n="tutorial.step1_title" class="text-2xl font-bold text-slate-900 mb-4">Open Settings</h2>
+                    <p data-i18n="tutorial.step1_text" data-html="true" class="text-lg text-slate-600 leading-relaxed">
+                        Unlock your iPhone and open the <strong>Settings</strong> app. Scroll down until you find the list of apps.
+                    </p>
+                </div>
+                
+                <div class="flex justify-center md:justify-end">
+                    <div class="iphone-frame">
+                        <img src="img/1-english.PNG" alt="iOS Settings App">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="step-item grid md:grid-cols-2 gap-12 items-center relative">
+                <div class="step-connector"></div>
+
+                <div class="relative z-10 pl-16 md:pl-20 md:order-2">
+                    <div class="absolute left-0 top-1 w-12 h-12 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center text-lg font-bold text-blue-600 shadow-sm">
+                        2
+                    </div>
+                    <h2 data-i18n="tutorial.step2_title" class="text-2xl font-bold text-slate-900 mb-4">Select Phone</h2>
+                    <p data-i18n="tutorial.step2_text" data-html="true" class="text-lg text-slate-600 leading-relaxed">
+                        Tap on <strong>Phone</strong>. This is where you control how your iPhone handles incoming calls and spam.
+                    </p>
+                </div>
+
+                <div class="flex justify-center md:justify-start md:order-1">
+                    <div class="iphone-frame">
+                        <img src="img/2-english.PNG" alt="iOS Phone Settings">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="step-item grid md:grid-cols-2 gap-12 items-center relative">
+                <div class="step-connector"></div>
+
+                <div class="relative z-10 pl-16 md:pl-20">
+                    <div class="absolute left-0 top-1 w-12 h-12 bg-white border-2 border-green-500 rounded-full flex items-center justify-center text-lg font-bold text-green-600 shadow-sm">
+                        3
+                    </div>
+                    <h2 data-i18n="tutorial.step3_title" class="text-2xl font-bold text-slate-900 mb-4">Enable Feature</h2>
+                    <p data-i18n="tutorial.step3_text" data-html="true" class="text-lg text-slate-600 leading-relaxed">
+                        Scroll down to <strong>Silence Unknown Callers</strong> and toggle the switch to <strong>ON</strong> (Green).
+                    </p>
+                </div>
+
+                <div class="flex justify-center md:justify-end">
+                    <div class="iphone-frame">
+                        <img src="img/3-english.PNG" alt="Enable Toggle">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Final Note -->
+        <div class="mt-24 text-center">
+            <p data-i18n="tutorial.completion_note" class="text-slate-500 font-medium bg-slate-50 inline-block px-6 py-3 rounded-full border border-slate-100">
+                That's it! RingBack will now filter the silent calls and notify you on your Mac if they are safe.
+            </p>
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-slate-100 py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="font-bold text-slate-900 text-lg mb-2">RingBack</p>
+            <p data-i18n="footer.copyright" class="text-slate-500 text-sm">© 2025 RingBack for Mac. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Application Logic (Reused) -->
+    <script src="js/app.js"></script>
+</body>
+</html>

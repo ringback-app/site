@@ -1,0 +1,66 @@
+{
+    "meta": {
+        "title_home": "RingBack - Silence Unknown Callers, Safely",
+        "title_tutorial": "Setup Guide - RingBack"
+    },
+    "hero": {
+        "mac_badge": "For macOS Users",
+        "title": "Don't let spam break your focus.",
+        "subtitle_start": "Silence unknown callers",
+        "subtitle_middle": " on your iPhone without the anxiety. RingBack verifies numbers instantly and ",
+        "subtitle_highlight": "notifies your Mac only when it's safe",
+        "subtitle_end": ", so you never miss an important call.",
+        "cta_download": "Download Now",
+        "cta_how": "How it works",
+        "trusted": "Trusted by Mac users worldwide"
+    },
+    "app": {
+        "tab_all": "All",
+        "tab_safe": "Safe",
+        "tab_spam": "Spam",
+        "header_today": "Today",
+        "header_yesterday": "Yesterday",
+        "country_italy": "Italy",
+        "country_france": "France",
+        "badge_high_risk": "High Risk",
+        "badge_suspected": "Suspected Spam"
+    },
+    "workflow": {
+        "section_title": "The Perfect Workflow",
+        "main_heading": "Enable \"Silence Unknown Callers.\" <br>We handle the rest.",
+        "sub_heading": "Stop the ringing, keep the connection. RingBack acts as your gatekeeper so you can stay in Deep Work mode.",
+        "step1_title": "Silence the Noise",
+        "step1_desc": "Turn on iOS \"Silence Unknown Callers\". Your phone stays quiet; you stay focused.",
+        "step1_link": "View Setup Guide →",
+        "step2_title": "Get Verified Alerts",
+        "step2_desc": "If it's safe, RingBack sends a notification to your Mac. If it's spam, it stays silent.",
+        "step3_title": "ReCall if Safe",
+        "step3_desc": "Safe number? Click to call back immediately. Spam? Block and ignore forever."
+    },
+    "features": {
+        "heading": "Never miss important calls again.",
+        "subheading": "Seamless integration across your Apple devices.",
+        "f1_title": "iCloud Sync",
+        "f1_desc": "No cables required. If your iPhone and Mac are signed into the same account, your missed calls appear instantly.",
+        "f2_title": "Spam Shield",
+        "f2_desc": "We cross-reference numbers against global spam databases to flag robocalls with a risk score.",
+        "f3_title": "Click to Call",
+        "f3_desc": "See a legitimate missed call? Start a FaceTime Audio or Cellular call directly from your Mac."
+    },
+    "tutorial": {
+        "title": "How to Enable \"Silence Unknown Callers\"",
+        "subtitle": "Follow these 3 simple steps on your iPhone to stop spam calls from ringing.",
+        "pro_tip": "Can't find it? Swipe down in Settings to reveal the search bar and type \"Silence\".",
+        "back_home": "Back to Home",
+        "step1_title": "Open Settings",
+        "step1_text": "Unlock your iPhone and open the <strong>Settings</strong> app. Scroll down until you find the list of apps.",
+        "step2_title": "Select Phone",
+        "step2_text": "Tap on <strong>Phone</strong>. This is where you control how your iPhone handles incoming calls and spam.",
+        "step3_title": "Enable Feature",
+        "step3_text": "Scroll down to <strong>Silence Unknown Callers</strong> and toggle the switch to <strong>ON</strong> (Green).",
+        "completion_note": "That's it! RingBack will now filter the silent calls and notify you on your Mac if they are safe."
+    },
+    "footer": {
+        "copyright": "© 2025 RingBack for Mac. All rights reserved."
+    }
+}

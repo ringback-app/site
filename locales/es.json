@@ -1,0 +1,66 @@
+{
+    "meta": {
+        "title_home": "RingBack - Silenciar desconocidos, de forma segura",
+        "title_tutorial": "Guía de configuración - RingBack"
+    },
+    "hero": {
+        "mac_badge": "Para usuarios de macOS",
+        "title": "No dejes que el spam te distraiga.",
+        "subtitle_start": "Silencia desconocidos",
+        "subtitle_middle": " en tu iPhone sin ansiedad. RingBack verifica números al instante y ",
+        "subtitle_highlight": "notifica a tu Mac solo si es seguro",
+        "subtitle_end": ", para que nunca pierdas una llamada importante.",
+        "cta_download": "Descargar Ahora",
+        "cta_how": "Cómo funciona",
+        "trusted": "Confiado por usuarios de Mac"
+    },
+    "app": {
+        "tab_all": "Todos",
+        "tab_safe": "Seguro",
+        "tab_spam": "Spam",
+        "header_today": "Hoy",
+        "header_yesterday": "Ayer",
+        "country_italy": "Italia",
+        "country_france": "Francia",
+        "badge_high_risk": "Alto Riesgo",
+        "badge_suspected": "Sospecha de Spam"
+    },
+    "workflow": {
+        "section_title": "El Flujo Perfecto",
+        "main_heading": "Activa \"Silenciar desconocidos\".<br>Nosotros hacemos el resto.",
+        "sub_heading": "Detén los timbres, mantén la conexión. RingBack actúa como tu portero para mantener tu concentración.",
+        "step1_title": "Silencia el Ruido",
+        "step1_desc": "Activa la función de iOS. Tu teléfono permanece en silencio; tú permaneces enfocado.",
+        "step1_link": "Ver guía de configuración →",
+        "step2_title": "Alertas Verificadas",
+        "step2_desc": "Si es seguro, RingBack envía una notificación a tu Mac. Si es spam, permanece en silencio.",
+        "step3_title": "Devuelve la Llamada",
+        "step3_desc": "¿Número seguro? Haz clic para llamar. ¿Spam? Bloquea e ignora para siempre."
+    },
+    "features": {
+        "heading": "No pierdas más llamadas importantes.",
+        "subheading": "Integración perfecta entre tus dispositivos Apple.",
+        "f1_title": "Sincronización iCloud",
+        "f1_desc": "Sin cables. Si tu iPhone y Mac usan la misma cuenta, las llamadas perdidas aparecen al instante.",
+        "f2_title": "Escudo de Spam",
+        "f2_desc": "Cruzamos números con bases de datos globales para marcar llamadas automáticas con una puntuación de riesgo.",
+        "f3_title": "Clic para Llamar",
+        "f3_desc": "¿Llamada perdida legítima? Inicia una llamada FaceTime Audio o Celular directamente desde tu Mac."
+    },
+    "tutorial": {
+        "title": "Cómo activar \"Silenciar desconocidos\"",
+        "subtitle": "Sigue estos 3 sencillos pasos en tu iPhone para detener las llamadas de spam.",
+        "pro_tip": "Consejo Pro: ¿No lo encuentras? Desliza hacia abajo en Ajustes para ver la barra de búsqueda y escribe \"Silenciar\".",
+        "back_home": "Volver al Inicio",
+        "step1_title": "Abre Ajustes",
+        "step1_text": "Desbloquea tu iPhone y abre la app <strong>Ajustes</strong>. Desplázate hacia abajo hasta encontrar la lista de aplicaciones.",
+        "step2_title": "Selecciona Teléfono",
+        "step2_text": "Toca en <strong>Teléfono</strong>. Aquí es donde controlas cómo tu iPhone maneja las llamadas entrantes.",
+        "step3_title": "Activa la Función",
+        "step3_text": "Desplázate hasta <strong>Silenciar desconocidos</strong> y activa el interruptor (Verde).",
+        "completion_note": "¡Eso es todo! RingBack filtrará las llamadas silenciosas y te notificará en tu Mac si son seguras."
+    },
+    "footer": {
+        "copyright": "© 2025 RingBack para Mac. Todos los derechos reservados."
+    }
+}

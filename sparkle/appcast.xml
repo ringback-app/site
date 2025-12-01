@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>RingBack</title>
+        <item>
+            <title>1.2.1</title>
+            <pubDate>Mon, 01 Dec 2025 19:03:38 +0100</pubDate>
+            <sparkle:version>121</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <enclosure url="https://ringback-app.github.io/site/sparkle/RingBack.dmg" length="7839478" type="application/octet-stream" sparkle:edSignature="IKueG/Y08kjkyFYbMsdCamNOoE2556fxVQlPWNQcSCIg2YRnzbXuJlNlZuNOwnjCVduUfP5Fshakgl7d/fNlAQ=="/>
+        </item>
+    </channel>
+</rss>
